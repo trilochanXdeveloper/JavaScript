@@ -10,11 +10,11 @@ const JsUser = {
     email : "trilochanpradhan2001@gmail.com",
     isLoggedIn : false,
     lastLoginDays : ["Monday" , "Saturday"],
-    [mySym] : "myKey1"
+    [mySym]: "myKey1"
 }
 //console.log(JsUser);
 //console.log(JsUser.email)
-// console.log(JsUser[mySym])
+console.log(JsUser[mySym])
 // console.log(typeof JsUser.mySym)
 // JsUser.age = 24 
 // Object.freeze(JsUser)
@@ -25,3 +25,4 @@ JsUser.greeting = function(){
 }
 console.log(JsUser.greeting())
 //console.log(JsUser);
+console.log(typeof mySym)
