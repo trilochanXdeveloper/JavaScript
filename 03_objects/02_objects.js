@@ -49,3 +49,20 @@ Object.assign({},obj1,obj2)
 //Is property available
   //console.log(linkedinUser.hasOwnProperty('name'))
  //console.log(Object.entries(linkedinUser))
+
+ const course = {
+    coursename: "JavaScript",
+    price:"999",
+    duration:"1Month"
+ }
+//console.log(course.coursename);
+//Object De-structureing
+
+const {coursename} = course;
+console.log(coursename);
+console.log("-----------------------");
+
+const {coursename:cname} = course;
+console.log(cname);
+
+
